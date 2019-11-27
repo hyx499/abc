@@ -1,5 +1,5 @@
 新建一个 git 仓库：git init
-添加一个文件：git add .
+添加所有文件的修改到暂存区：git add .
 提交版本：git commit -m "内容"
 在网上新建一个可以记录的仓库
 把仓库网站与本机相连接：git remote add origin https://github.com/hyx499/abc.git
@@ -9,7 +9,7 @@
 查看仓库的目前状态：git status
 查看版本日志：git log
 回退到以前的版本：git reset --hard 版本号
-新建一条分支：git branch 名称
+新建一条分支：git branch 分支名称
 切换分支：git checkout 分支名称
 删除分支：git branch -D 分支名称
 将分支合并到主分支：git merge master
